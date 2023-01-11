@@ -140,10 +140,10 @@ header {
   width: 100%;
 }
 .css-1tb7emz-JoyStack-root > :not(style) + :not(style) {
-  margin: 0;
+  margin: 0px !important;
 }
 .css-1tb7emz-JoyStack-root {
-  align-items: center;
+  align-items: center !important;
 }
 /*slick*/
 .slick-next {
