@@ -135,14 +135,11 @@ header {
   font-weight: bold;
   margin: 5px 10px;
 }
-.css-yl2oa7-JoyLinearProgress-root {
-  height: 5px;
-  width: 100%;
-}
-.css-1tb7emz-JoyStack-root > :not(style) + :not(style) {
+
+.css-3xbxqa > :not(style) + :not(style) {
   margin: 0px !important;
 }
-.css-1tb7emz-JoyStack-root {
+.css-3xbxqa {
   align-items: center !important;
 }
 /*slick*/
