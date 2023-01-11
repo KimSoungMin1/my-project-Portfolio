@@ -137,9 +137,11 @@ header {
 }
 
 .css-3xbxqa > :not(style) + :not(style) {
+  /*페이지 배포할때 와 localhost 에서 볼때 className 다름*/
   margin: 0px !important;
 }
 .css-3xbxqa {
+  /*페이지 배포할때 와 localhost 에서 볼때 className 다름*/
   align-items: center !important;
 }
 /*slick*/
