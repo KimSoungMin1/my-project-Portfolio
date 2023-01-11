@@ -57,7 +57,7 @@ const Header = () => {
           <li
             onClick={() =>
               window.scrollTo({
-                top: 2950,
+                top: 3150,
                 behavior: "smooth",
               })
             }

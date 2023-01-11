@@ -150,14 +150,14 @@ const Project = () => {
           </div>
           <p className="project_link_icon">
             <a
-              href="https://github.com/KimSoungMin1/shinhan/tree/master/shinhan"
+              href="https://github.com/KimSoungMin1/my-project-Portfolio"
               target="_blank"
               className="project_nav"
             >
               <GitHubIcon />
             </a>
             <a
-              href="https://kimsoungmin1.github.io/shinhan/"
+              href="https://kimsoungmin1.github.io/my-project-Portfolio/"
               target="_blank"
               className="project_nav"
             >
