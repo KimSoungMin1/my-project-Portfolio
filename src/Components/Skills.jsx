@@ -6,18 +6,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Skills = () => {
   const [mainProgress, setMainProgress] = useState([
-    { name: "HTML", progressBar: 0, progress: "90%" },
-    { name: "CSS", progressBar: 0, progress: "90%" },
-    { name: "JS", progressBar: 0, progress: "85%" },
-    { name: "React.js", progressBar: 0, progress: "80%" },
-    { name: "Material-UI", progressBar: 0, progress: "80%" },
+    { name: "HTML", progressBar: 0, progress: "0%" },
+    { name: "CSS", progressBar: 0, progress: "0%" },
+    { name: "JS", progressBar: 0, progress: "0%" },
+    { name: "React.js", progressBar: 0, progress: "0%" },
+    { name: "Material-UI", progressBar: 0, progress: "0%" },
   ]);
   const [subProgress, setSubProgress] = useState([
-    { name: "Java", progressBar: 0, progress: "60%" },
-    { name: "firebase", progressBar: 0, progress: "80%" },
-    { name: "Next.js", progressBar: 0, progress: "60%" },
-    { name: "MySql", progressBar: 0, progress: "70%" },
-    { name: "git", progressBar: 0, progress: "80%" },
+    { name: "Java", progressBar: 0, progress: "0%" },
+    { name: "firebase", progressBar: 0, progress: "0%" },
+    { name: "Next.js", progressBar: 0, progress: "0%" },
+    { name: "MySql", progressBar: 0, progress: "0%" },
+    { name: "git", progressBar: 0, progress: "0%" },
   ]);
 
   const timer = () => {
