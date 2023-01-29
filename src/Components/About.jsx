@@ -35,7 +35,7 @@ const About = () => {
     <div className="about">
       <h1>About</h1>
       <div className="about_wrap">
-        <img src={contactImg} alt="" />
+        <img src={contactImg} alt="img" />
         <ul className="about-list">
           {about.map((about) => {
             return (
