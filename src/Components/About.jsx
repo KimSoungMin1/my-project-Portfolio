@@ -13,21 +13,13 @@ const About = () => {
       icon: <AccountCircleIcon fontSize="large" />,
       name: "김성민",
     },
-    {
-      title: "생년월일",
-      icon: <CakeIcon fontSize="large" />,
-      name: "97.03.26",
-    },
+
     {
       title: "주소지",
       icon: <PlaceIcon fontSize="large" />,
       name: "부산시 사하구",
     },
-    {
-      title: "연락처",
-      icon: <LocalPhoneIcon fontSize="large" />,
-      name: "010-2474-7087",
-    },
+
     {
       title: "이메일",
       icon: <EmailIcon fontSize="large" />,

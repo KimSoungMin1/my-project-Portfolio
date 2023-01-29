@@ -202,7 +202,7 @@ header {
   justify-content: space-between;
 }
 
-.project_information h1 {
+.project_information h2 {
   text-align: center;
   margin: 10px 0;
 }
@@ -247,7 +247,7 @@ header {
 }
 .about_wrap {
   display: flex;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   align-items: center;
 }
@@ -257,14 +257,15 @@ header {
 }
 .about-list {
   display: flex;
-  width: 60%;
+  width: 50%;
   height: 200px;
   flex-wrap: wrap;
+  flex: 1;
   justify-content: space-between;
   color: white;
 }
 .about-list li {
-  width: 30%;
+  width: 40%;
   display: flex;
   align-items: center;
 }

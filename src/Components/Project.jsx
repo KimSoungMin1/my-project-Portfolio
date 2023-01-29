@@ -6,13 +6,13 @@ import DesktopWindowsOutlinedIcon from "@mui/icons-material/DesktopWindowsOutlin
 const Project = () => {
   return (
     <div className="project">
-      <h1 className="project_title">Project</h1>
+      <h1 className="project_title">Projects</h1>
       <div className="project_wrap">
         <div className="project_list">
           <img src={Project1} alt="" className="project_img" />
         </div>
         <div className="project_information">
-          <h1>신한카드</h1>
+          <h2>신한카드</h2>
           <div>
             <p>
               <span>
@@ -30,12 +30,12 @@ const Project = () => {
             </p>
             <p>
               <span> #나의 기여도</span>
-              <br /> ✔반응형 제작 <br />
-              ✔contextAPI를 활용 하여 데이터 관리
+              <br /> ✔반응형 제작 {" (태블릿 지원)"} <br />
+              ✔contextAPI를 활용 하여 공통으로 적용되는 전역 데이터 관리
               <br /> ✔swiper custom,
             </p>
             <p>
-              <span>사용스킬</span>
+              <span>사용기술 목록</span>
               <br />
               React,swiper,react-router-dom
             </p>
@@ -64,7 +64,10 @@ const Project = () => {
           <img src={Project2} alt="" className="project_img" />
         </div>
         <div className="project_information">
-          <h1>traval</h1>
+          <h2>
+            traval <span>{"(여행자를 위한 SNS)"}</span>
+          </h2>
+
           <div>
             <p>
               <span>
@@ -80,22 +83,22 @@ const Project = () => {
               여행계획 쪽에서 계획을 하고 공유하여 동행자를 찾을 수도 있습니다
               <br />
               자신 과 비슷한 성향에 여행 친구를 찾아보세요
+              <br />
+              {"(태블릿 과 모바일에서도 지원하고 있습니다)"}
             </p>
             <p>
               <span> #나의 기여도</span>
               <br /> ✔ 글작성:개시글 작성과 이미지 삽입 해쉬태그 이모티콘 기능
-              추가 <br /> ✔ 개시글 공개 비공개 여부 확인 추가 시 연결된 db에
-              데이터 저장
+              추가 <br /> ✔ 개시글: 공개 비공개 기능
               <br />
-              ✔ 글수정:자신이 작성한 개시글 수정 가능 수정 시 연결된 db에 데이터
-              업데이트
+              ✔ 글수정:자신이 작성한 개시글 수정 기능
               <br />
               ✔ 작성 글 더보기:작성한 내용 더보기 구현
-              <br /> ✔ 마이페이지:UI,프로필 편집 기능 ,팔로우 기능 팔로우 알림
-              기능
+              <br /> ✔ 마이페이지:UI,프로필 편집 기능 ,팔로우 기능 팔로우
+              알림,유저 팔로우 팔로워 목록
             </p>
             <p>
-              <span>사용스킬</span>
+              <span>사용기술 목록</span>
               <br />
               React, firebase, Material-UI,redux-toolkit,react-router-dom
             </p>
@@ -124,7 +127,9 @@ const Project = () => {
           <img src={Project3} alt="" className="project_img" />
         </div>
         <div className="project_information">
-          <h1>개인 포트폴리오</h1>
+          <h2>
+            개인 포트폴리오<span>{" (포트폴리오용으로 제작)"}</span>
+          </h2>
           <div>
             <p>
               <span>
@@ -143,7 +148,7 @@ const Project = () => {
               <br />✔ Material-UI를 활용한 빠른 개발
             </p>
             <p>
-              <span>사용스킬</span>
+              <span>사용기술 목록</span>
               <br />
               React, Material-UI,slick-slider
             </p>

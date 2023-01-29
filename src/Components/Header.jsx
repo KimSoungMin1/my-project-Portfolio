@@ -42,7 +42,7 @@ const Header = () => {
               })
             }
           >
-            Skill
+            Skills
           </li>
           <li
             onClick={() =>
@@ -52,7 +52,7 @@ const Header = () => {
               })
             }
           >
-            Project
+            Projects
           </li>
           <li
             onClick={() =>
