@@ -13,7 +13,7 @@ const Skills = () => {
     { name: "Material-UI", progressBar: 0, progress: "0%" },
   ]);
   const [subProgress, setSubProgress] = useState([
-    { name: "Java", progressBar: 0, progress: "0%" },
+    { name: "Node.js", progressBar: 0, progress: "0%" },
     { name: "firebase", progressBar: 0, progress: "0%" },
     { name: "Next.js", progressBar: 0, progress: "0%" },
     { name: "MySql", progressBar: 0, progress: "0%" },
@@ -30,7 +30,7 @@ const Skills = () => {
     ]);
 
     setSubProgress([
-      { name: "Java", progressBar: 60, progress: "60%" },
+      { name: "Node.js", progressBar: 40, progress: "40%" },
       { name: "firebase", progressBar: 80, progress: "80%" },
       { name: "Next.js", progressBar: 40, progress: "40%" },
       { name: "MySql", progressBar: 70, progress: "70%" },
